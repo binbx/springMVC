@@ -15,6 +15,12 @@ import java.io.IOException;
  * @ClassName: HttpController
  * @Author: bxie
  * @Date: 2022/3/3
+ *
+ * @RequestBody 用来标识形参的，获取请求体
+ * RequestEntity 控制器形参的类型
+ * @ResponseBody 标识控制器方法
+ * @RestController
+ * ResponseEntity 控制器方法的返回值类型，代表当前响应的实体
  */
 @Controller
 public class HttpController {

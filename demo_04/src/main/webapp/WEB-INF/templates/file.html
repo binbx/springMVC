@@ -6,7 +6,9 @@
 </head>
 <body>
 
+<!--文件下载-->
 <a th:href="@{/testDown}">下载1.jpg</a><br>
+<!--文件上传-->
 <form th:action="@{/testUp}" method="post" enctype="multipart/form-data">
     头像：<input type="file" name="photo"><br>
     <input type="submit" value="上传">

@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.util.UUID;
 
 /**
- * @Description: 文件上传与文件下载
+ * @Description: 测试文件上传与文件下载
  * @ClassName: FileUpAndDownController
  * @Author: bxie
  * @Date: 2022/3/3
@@ -25,6 +25,7 @@ import java.util.UUID;
 @Controller
 public class FileUpAndDownController {
 
+    //文件下载
     @RequestMapping("/testDown")
     public ResponseEntity<byte[]> testResponseEntity(HttpSession session) throws IOException {
         //获取ServletContext对象
@@ -51,6 +52,7 @@ public class FileUpAndDownController {
         return responseEntity;
     }
 
+    //文件上传
     @RequestMapping("/testUp")
     public String testUp(MultipartFile photo, HttpSession session) throws IOException {
         //获取上传的文件的文件名
