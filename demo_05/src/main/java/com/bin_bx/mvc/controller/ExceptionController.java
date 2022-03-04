@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
- * @Description:
+ * @Description: 测试 基于注解异常处理
  * @ClassName: ExceptionController
  * @Author: bxie
  * @Date: 2022/3/4
